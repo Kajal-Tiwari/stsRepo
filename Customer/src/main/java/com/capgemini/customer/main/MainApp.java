@@ -6,7 +6,7 @@ import javax.persistence.Persistence;
 import com.capgemini.customer.Customer;
 
 public class MainApp {
-
+       //by the way
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");     //database
 		EntityManager em = emf.createEntityManager();
